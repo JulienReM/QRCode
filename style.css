@@ -1,0 +1,36 @@
+body{
+	background-color: hsl(212, 45%, 89%);
+}
+
+#glob{
+	background-color: hsl(0, 0%, 100%);
+	text-align: center;
+	padding: 12px;
+	margin: 150px auto;
+	border-radius: 15px;
+	border: 3px solid hsl(0, 0%, 100%);
+	box-shadow: 0px 5px 10px hsla(220, 15%, 55%, 0.5);
+	width: 280px;
+
+}
+img{
+	display: block;
+	max-width: 100%;
+	border-radius: 10px;
+}
+#improve{
+	font-size: 15px;
+	font-family: "Outfit", sans-serif;
+}
+.big{
+	font-weight: bold;
+	font-size: 20px;
+	color: hsl(218, 44%, 22%);
+}
+.small{
+	color: hsl(220, 15%, 55%);
+	padding-bottom: 5px;
+}
+.attribution{
+	margin-top: 100px;
+}
