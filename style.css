@@ -1,15 +1,19 @@
 body{
+	min-height: 100vh;
 	background-color: hsl(212, 45%, 89%);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
 }
 
-#glob{
+.glob{
 	background-color: hsl(0, 0%, 100%);
 	text-align: center;
 	padding: 12px;
-	margin: 150px auto;
 	border-radius: 15px;
 	border: 3px solid hsl(0, 0%, 100%);
-	box-shadow: 0px 5px 10px hsla(220, 15%, 55%, 0.5);
+	box-shadow: 5px 5px 15px 5px rgb(0 0 0 / 3%);
 	width: 280px;
 
 }
@@ -18,7 +22,7 @@ img{
 	max-width: 100%;
 	border-radius: 10px;
 }
-#improve{
+.improve{
 	font-size: 15px;
 	font-family: "Outfit", sans-serif;
 }
